@@ -1,5 +1,6 @@
 .meus-filmes{
     margin-top: 24px;
+    max-width: 100%;
 }
 
 .meus-filmes h1{
@@ -9,7 +10,7 @@
 
 .meus-filmes ul{
     list-style: none;
-    width: 720px;
+    width: 100%;
 }
 .meus-filmes span{
     display: flex;
@@ -26,4 +27,13 @@
     text-decoration: none;
     color: #116feb;
     
+}
+.meus-filmes div .btn-excluir{
+    padding: 7px;
+    background-color: brown;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #FFF;
+    cursor: pointer;
 }
